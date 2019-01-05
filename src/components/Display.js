@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-const Display = (props) => {
+const Display = ({ acorns }) => {
   return (
     <div>
-      {props.children}
+      <h1>{acorns}</h1>
     </div>
   );
 }
